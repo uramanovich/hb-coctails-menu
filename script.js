@@ -3,8 +3,8 @@ const MENU = {
     slides: [
       {
         title: 'Коктейль\nМеню',
-        subtitle: 'Princess Party',
-        note: '5 авторских коктейлей\nна основе джина и рома',
+        subtitle: 'Prince & Princess Menu',
+        note: 'Для юных принцев и принцесс',
         footer: '· · · ✦ Пожалуйста, пейте ответственно 🌸 ✦ · · ·',
         items: [
           {
@@ -52,8 +52,8 @@ const MENU = {
       },
       {
         title: 'Меню Без\nАлкоголя',
-        subtitle: 'Princess Party',
-        note: '4 напитка без алкоголя\nдля юных принцесс',
+        subtitle: 'Prince & Princess Menu',
+        note: 'Для юных принцев и принцесс',
         footer: '· · · ✦ Приятного вечера 🌸 ✦ · · ·',
         items: [
           {
@@ -61,7 +61,7 @@ const MENU = {
             name: 'Золотой хмель',
             base: 'пиво 0.0%',
             desc: 'Лёгкий и хмельной',
-            ingredients: ['Безалкогольное пиво', 'Лёд'],
+            ingredients: ['Безалкогольное пиво'],
             joke: '😄 Пьёшь как король, за рулём как трезвенник',
           },
           {
@@ -69,7 +69,7 @@ const MENU = {
             name: 'Кола Zero с лимоном',
             base: 'кола',
             desc: 'Освежающий и бодрящий',
-            ingredients: ['Кола Zero', 'Лимон', 'Лёд'],
+            ingredients: ['Кола Zero', 'Лимон (по желанию)', 'Лёд'],
             joke: '😄 Ноль калорий, сто процентов настроения',
           },
           {
@@ -96,8 +96,8 @@ const MENU = {
     slides: [
       {
         title: 'Cocktail\nMenu',
-        subtitle: 'Princess Party',
-        note: '5 signature cocktails\nbased on gin and rum',
+        subtitle: 'Prince & Princess Menu',
+        note: 'For young princes and princesses',
         footer: '· · · ✦ Please drink responsibly 🌸 ✦ · · ·',
         items: [
           {
@@ -145,8 +145,8 @@ const MENU = {
       },
       {
         title: 'Non-Alcoholic\nMenu',
-        subtitle: 'Princess Party',
-        note: '4 non-alcoholic drinks\nfor young princesses',
+        subtitle: 'Prince & Princess Menu',
+        note: 'For young princes and princesses',
         footer: '· · · ✦ Enjoy the evening 🌸 ✦ · · ·',
         items: [
           {
@@ -154,7 +154,7 @@ const MENU = {
             name: 'Golden Hops',
             base: 'beer 0.0%',
             desc: 'Light and malty',
-            ingredients: ['Non-alcoholic beer', 'Ice'],
+            ingredients: ['Non-alcoholic beer'],
             joke: '😄 Drink like royalty, drive like a designated driver',
           },
           {
@@ -162,7 +162,7 @@ const MENU = {
             name: 'Cola Zero with Lemon',
             base: 'cola',
             desc: 'Refreshing and zesty',
-            ingredients: ['Cola Zero', 'Lemon', 'Ice'],
+            ingredients: ['Cola Zero', 'Lemon (optional)', 'Ice'],
             joke: '😄 Zero calories, one hundred percent mood',
           },
           {
