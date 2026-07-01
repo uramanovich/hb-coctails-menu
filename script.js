@@ -11,14 +11,14 @@ const MENU = {
             emoji: '🍍',
             name: 'Золотой рассвет',
             base: 'ром',
-            prep: 'без шейкера',
+            desc: 'Тропический и освежающий',
             ingredients: ['Ром 30 мл', 'Ананас 160 мл', 'Апельсин 80 мл', 'Лайм 10 мл', 'Лёд', '✨ золотые блёстки'],
           },
           {
             emoji: '👑',
             name: 'Королевский мул в розовой карете',
             base: 'джин',
-            prep: 'без шейкера',
+            desc: 'Имбирный и игристый',
             ingredients: ['Джин 30 мл', 'Ginger Beer 160 мл', 'Лайм 20 мл', 'Гренадин 15 мл', 'Лёд'],
             note: 'Гренадин — последним, не мешать!',
           },
@@ -26,22 +26,23 @@ const MENU = {
             emoji: '🦋',
             name: 'Сад зачарованной феи',
             base: 'джин',
-            prep: 'нужен шейкер',
+            desc: 'Лавандовый и нежный',
             ingredients: ['Джин 20 мл', 'Лимон 15 мл', 'Лавандовый сироп 40 мл', 'Газировка 100 мл', 'Лёд', '✨ розовые блёстки'],
           },
           {
             emoji: '🌿',
             name: 'Сад бузины',
             base: 'джин',
-            prep: 'без шейкера',
+            desc: 'Лёгкий и кислый',
             ingredients: ['Джин 30 мл', 'Elderflower сироп 40 мл', 'Лимон 30 мл', 'Газировка 160 мл', 'Огурец', 'Лёд'],
           },
           {
             emoji: '🌹',
             name: 'Розовый сад',
             base: 'джин',
-            prep: 'без шейкера',
+            desc: 'Цветочный и игристый',
             ingredients: ['Джин 30 мл', 'Розовый сироп 20 мл', 'Лимон 25 мл', 'Газировка 150 мл', 'Огурец', 'Лёд', '✨ розовые блёстки'],
+            fullRow: true,
           },
         ],
       },
@@ -55,24 +56,28 @@ const MENU = {
             emoji: '🍺',
             name: 'Золотой хмель',
             base: 'пиво 0.0%',
+            desc: 'Лёгкий и хмельной',
             ingredients: ['Безалкогольное пиво 330 мл', 'Лёд'],
           },
           {
             emoji: '🥤',
             name: 'Кола Zero с лимоном',
             base: 'кола',
+            desc: 'Освежающий и бодрящий',
             ingredients: ['Кола Zero 330 мл', 'Лимон', 'Лёд'],
           },
           {
             emoji: '🫚',
             name: 'Имбирная искра',
             base: 'имбирное пиво',
+            desc: 'Острый и игристый',
             ingredients: ['Имбирное пиво 330 мл', 'Лёд'],
           },
           {
             emoji: '💧',
             name: 'Вода со свежим огурцом',
             base: 'вода',
+            desc: 'Прохладная и лёгкая',
             ingredients: ['Вода 330 мл', 'Огурец', 'Лёд'],
           },
         ],
@@ -91,14 +96,14 @@ const MENU = {
             emoji: '🍍',
             name: 'Golden Sunrise',
             base: 'rum',
-            prep: 'no shaker',
+            desc: 'Tropical and refreshing',
             ingredients: ['Rum 30 ml', 'Pineapple 160 ml', 'Orange 80 ml', 'Lime 10 ml', 'Ice', '✨ gold glitter'],
           },
           {
             emoji: '👑',
             name: 'Princess London Mule',
             base: 'gin',
-            prep: 'no shaker',
+            desc: 'Ginger and sparkling',
             ingredients: ['Gin 30 ml', 'Ginger Beer 160 ml', 'Lime 20 ml', 'Grenadine 15 ml', 'Ice'],
             note: 'Add grenadine last, don’t stir!',
           },
@@ -106,22 +111,23 @@ const MENU = {
             emoji: '🦋',
             name: 'Lavender Gin Sour',
             base: 'gin',
-            prep: 'shaker required',
+            desc: 'Lavender and delicate',
             ingredients: ['Gin 20 ml', 'Lemon 15 ml', 'Lavender syrup 40 ml', 'Soda 100 ml', 'Ice', '✨ pink glitter'],
           },
           {
             emoji: '🌿',
             name: 'Elderflower Gin Sour',
             base: 'gin',
-            prep: 'no shaker',
+            desc: 'Light and tart',
             ingredients: ['Gin 30 ml', 'Elderflower syrup 40 ml', 'Lemon 30 ml', 'Soda 160 ml', 'Cucumber', 'Ice'],
           },
           {
             emoji: '🌹',
             name: 'Rose Gin Fizz',
             base: 'gin',
-            prep: 'no shaker',
+            desc: 'Floral and sparkling',
             ingredients: ['Gin 30 ml', 'Rose syrup 20 ml', 'Lemon 25 ml', 'Soda 150 ml', 'Cucumber', 'Ice', '✨ pink glitter'],
+            fullRow: true,
           },
         ],
       },
@@ -135,24 +141,28 @@ const MENU = {
             emoji: '🍺',
             name: 'Golden Hops',
             base: 'beer 0.0%',
+            desc: 'Light and malty',
             ingredients: ['Non-alcoholic beer 330 ml', 'Ice'],
           },
           {
             emoji: '🥤',
             name: 'Cola Zero with Lemon',
             base: 'cola',
+            desc: 'Refreshing and zesty',
             ingredients: ['Cola Zero 330 ml', 'Lemon', 'Ice'],
           },
           {
             emoji: '🫚',
             name: 'Ginger Spark',
             base: 'ginger beer',
+            desc: 'Spicy and sparkling',
             ingredients: ['Ginger beer 330 ml', 'Ice'],
           },
           {
             emoji: '💧',
             name: 'Water with Fresh Cucumber',
             base: 'water',
+            desc: 'Cool and light',
             ingredients: ['Water 330 ml', 'Cucumber', 'Ice'],
           },
         ],
@@ -181,7 +191,7 @@ function renderSlide(slideEl, slideData) {
 
   slideData.items.forEach((item) => {
     const row = document.createElement('div');
-    row.className = 'drink-row';
+    row.className = 'drink-row' + (item.fullRow ? ' full-row' : '');
 
     const head = document.createElement('div');
     head.className = 'drink-head';
@@ -190,23 +200,16 @@ function renderSlide(slideEl, slideData) {
     name.className = 'drink-name';
     name.textContent = `${item.emoji} ${item.name}`;
 
-    const badges = document.createElement('span');
-    badges.className = 'drink-badges';
-
     const baseBadge = document.createElement('span');
     baseBadge.className = 'base-badge';
     baseBadge.textContent = item.base;
-    badges.appendChild(baseBadge);
-
-    if (item.prep) {
-      const prepBadge = document.createElement('span');
-      prepBadge.className = 'base-badge prep-badge';
-      prepBadge.textContent = item.prep;
-      badges.appendChild(prepBadge);
-    }
 
     head.appendChild(name);
-    head.appendChild(badges);
+    head.appendChild(baseBadge);
+
+    const desc = document.createElement('div');
+    desc.className = 'drink-desc';
+    desc.textContent = item.desc;
 
     const ingRow = document.createElement('div');
     ingRow.className = 'ing-row';
@@ -218,6 +221,7 @@ function renderSlide(slideEl, slideData) {
     });
 
     row.appendChild(head);
+    row.appendChild(desc);
     row.appendChild(ingRow);
 
     if (item.note) {
