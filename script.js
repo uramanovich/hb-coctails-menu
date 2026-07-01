@@ -8,84 +8,72 @@ const MENU = {
         footer: '· · · ✦ Пожалуйста, пейте ответственно 🌸 ✦ · · ·',
         items: [
           {
-            name: 'Golden Sunrise',
-            badge: 'ром',
-            vibe: '«Золотой рассвет»',
-            desc: 'Тропический и освежающий',
-            ingredients: ['ананас', 'апельсин', 'лайм', '✨ золотые блёстки'],
+            emoji: '🍍',
+            name: 'Золотой рассвет',
+            base: 'ром',
+            prep: 'без шейкера',
+            ingredients: ['Ром 30 мл', 'Ананас 160 мл', 'Апельсин 80 мл', 'Лайм 10 мл', 'Лёд', '✨ золотые блёстки'],
           },
           {
-            name: 'Princess London Mule',
-            badge: 'джин',
-            vibe: '«Королевский мул в розовой карете»',
-            desc: 'Имбирный и игристый',
-            ingredients: ['имбирное пиво', 'лайм', 'гренадин'],
+            emoji: '👑',
+            name: 'Королевский мул в розовой карете',
+            base: 'джин',
+            prep: 'без шейкера',
+            ingredients: ['Джин 30 мл', 'Ginger Beer 160 мл', 'Лайм 20 мл', 'Гренадин 15 мл', 'Лёд'],
+            note: 'Гренадин — последним, не мешать!',
           },
           {
-            name: 'Lavender Gin Sour',
-            badge: 'джин',
-            vibe: '«Сад зачарованной феи»',
-            desc: 'Нежный и цветочный',
-            ingredients: ['лаванда', 'лимон', '✨ розовые блёстки'],
+            emoji: '🦋',
+            name: 'Сад зачарованной феи',
+            base: 'джин',
+            prep: 'нужен шейкер',
+            ingredients: ['Джин 20 мл', 'Лимон 15 мл', 'Лавандовый сироп 40 мл', 'Газировка 100 мл', 'Лёд', '✨ розовые блёстки'],
           },
           {
-            name: 'Elderflower Gin Sour',
-            badge: 'джин',
-            vibe: '«Сад бузины»',
-            desc: 'Лёгкий и кислый',
-            ingredients: ['бузина', 'лимон', 'огурец'],
+            emoji: '🌿',
+            name: 'Сад бузины',
+            base: 'джин',
+            prep: 'без шейкера',
+            ingredients: ['Джин 30 мл', 'Elderflower сироп 40 мл', 'Лимон 30 мл', 'Газировка 160 мл', 'Огурец', 'Лёд'],
           },
           {
-            name: 'Rose Gin Fizz',
-            badge: 'джин',
-            vibe: '«Розовый сад»',
-            desc: 'Цветочный и игристый, с нотками розы',
-            ingredients: ['роза', 'лимон', 'огурец', '✨ розовые блёстки'],
-            fullRow: true,
+            emoji: '🌹',
+            name: 'Розовый сад',
+            base: 'джин',
+            prep: 'без шейкера',
+            ingredients: ['Джин 30 мл', 'Розовый сироп 20 мл', 'Лимон 25 мл', 'Газировка 150 мл', 'Огурец', 'Лёд', '✨ розовые блёстки'],
           },
         ],
       },
       {
         title: 'Меню Без\nАлкоголя',
         subtitle: 'Princess Party',
-        note: '5 безалкогольных напитков\nдля юных принцесс',
+        note: '4 напитка без алкоголя\nдля юных принцесс',
         footer: '· · · ✦ Приятного вечера 🌸 ✦ · · ·',
         items: [
           {
-            name: 'Pink Lemonade',
-            badge: 'лимонад',
-            vibe: '«Розовый лимонад»',
-            desc: 'Освежающий и лёгкий',
-            ingredients: ['лимон', 'малина', 'мята'],
+            emoji: '🍺',
+            name: 'Золотой хмель',
+            base: 'пиво 0.0%',
+            ingredients: ['Безалкогольное пиво 330 мл', 'Лёд'],
           },
           {
-            name: 'Fairy Tale Punch',
-            badge: 'пунш',
-            vibe: '«Сказочный пунш»',
-            desc: 'Тропический и сладкий',
-            ingredients: ['ананас', 'апельсин', 'гренадин'],
+            emoji: '🥤',
+            name: 'Кола Zero с лимоном',
+            base: 'кола',
+            ingredients: ['Кола Zero 330 мл', 'Лимон', 'Лёд'],
           },
           {
-            name: 'Sparkling Berry Fizz',
-            badge: 'физз',
-            vibe: '«Ягодный физз»',
-            desc: 'Игристый и ягодный',
-            ingredients: ['ягоды', 'содовая', '✨ розовые блёстки'],
+            emoji: '🫚',
+            name: 'Имбирная искра',
+            base: 'имбирное пиво',
+            ingredients: ['Имбирное пиво 330 мл', 'Лёд'],
           },
           {
-            name: 'Cucumber Mint Cooler',
-            badge: 'кулер',
-            vibe: '«Огуречно-мятный кулер»',
-            desc: 'Прохладный и бодрящий',
-            ingredients: ['огурец', 'мята', 'лайм'],
-          },
-          {
-            name: 'Golden Peach Fizz',
-            badge: 'фреш',
-            vibe: '«Персиковый рассвет»',
-            desc: 'Мягкий и фруктовый',
-            ingredients: ['персик', 'апельсин', '✨ золотые блёстки'],
-            fullRow: true,
+            emoji: '💧',
+            name: 'Вода со свежим огурцом',
+            base: 'вода',
+            ingredients: ['Вода 330 мл', 'Огурец', 'Лёд'],
           },
         ],
       },
@@ -100,84 +88,72 @@ const MENU = {
         footer: '· · · ✦ Please drink responsibly 🌸 ✦ · · ·',
         items: [
           {
+            emoji: '🍍',
             name: 'Golden Sunrise',
-            badge: 'rum',
-            vibe: '"Golden Sunrise"',
-            desc: 'Tropical and refreshing',
-            ingredients: ['pineapple', 'orange', 'lime', '✨ gold glitter'],
+            base: 'rum',
+            prep: 'no shaker',
+            ingredients: ['Rum 30 ml', 'Pineapple 160 ml', 'Orange 80 ml', 'Lime 10 ml', 'Ice', '✨ gold glitter'],
           },
           {
+            emoji: '👑',
             name: 'Princess London Mule',
-            badge: 'gin',
-            vibe: '"Royal mule in a pink carriage"',
-            desc: 'Ginger and sparkling',
-            ingredients: ['ginger beer', 'lime', 'grenadine'],
+            base: 'gin',
+            prep: 'no shaker',
+            ingredients: ['Gin 30 ml', 'Ginger Beer 160 ml', 'Lime 20 ml', 'Grenadine 15 ml', 'Ice'],
+            note: 'Add grenadine last, don’t stir!',
           },
           {
+            emoji: '🦋',
             name: 'Lavender Gin Sour',
-            badge: 'gin',
-            vibe: '"Enchanted fairy garden"',
-            desc: 'Delicate and floral',
-            ingredients: ['lavender', 'lemon', '✨ pink glitter'],
+            base: 'gin',
+            prep: 'shaker required',
+            ingredients: ['Gin 20 ml', 'Lemon 15 ml', 'Lavender syrup 40 ml', 'Soda 100 ml', 'Ice', '✨ pink glitter'],
           },
           {
+            emoji: '🌿',
             name: 'Elderflower Gin Sour',
-            badge: 'gin',
-            vibe: '"Elderflower garden"',
-            desc: 'Light and tart',
-            ingredients: ['elderflower', 'lemon', 'cucumber'],
+            base: 'gin',
+            prep: 'no shaker',
+            ingredients: ['Gin 30 ml', 'Elderflower syrup 40 ml', 'Lemon 30 ml', 'Soda 160 ml', 'Cucumber', 'Ice'],
           },
           {
+            emoji: '🌹',
             name: 'Rose Gin Fizz',
-            badge: 'gin',
-            vibe: '"Rose garden"',
-            desc: 'Floral and sparkling, with notes of rose',
-            ingredients: ['rose', 'lemon', 'cucumber', '✨ pink glitter'],
-            fullRow: true,
+            base: 'gin',
+            prep: 'no shaker',
+            ingredients: ['Gin 30 ml', 'Rose syrup 20 ml', 'Lemon 25 ml', 'Soda 150 ml', 'Cucumber', 'Ice', '✨ pink glitter'],
           },
         ],
       },
       {
         title: 'Non-Alcoholic\nMenu',
         subtitle: 'Princess Party',
-        note: '5 non-alcoholic drinks\nfor young princesses',
+        note: '4 non-alcoholic drinks\nfor young princesses',
         footer: '· · · ✦ Enjoy the evening 🌸 ✦ · · ·',
         items: [
           {
-            name: 'Pink Lemonade',
-            badge: 'lemonade',
-            vibe: '"Pink Lemonade"',
-            desc: 'Refreshing and light',
-            ingredients: ['lemon', 'raspberry', 'mint'],
+            emoji: '🍺',
+            name: 'Golden Hops',
+            base: 'beer 0.0%',
+            ingredients: ['Non-alcoholic beer 330 ml', 'Ice'],
           },
           {
-            name: 'Fairy Tale Punch',
-            badge: 'punch',
-            vibe: '"Fairy Tale Punch"',
-            desc: 'Tropical and sweet',
-            ingredients: ['pineapple', 'orange', 'grenadine'],
+            emoji: '🥤',
+            name: 'Cola Zero with Lemon',
+            base: 'cola',
+            ingredients: ['Cola Zero 330 ml', 'Lemon', 'Ice'],
           },
           {
-            name: 'Sparkling Berry Fizz',
-            badge: 'fizz',
-            vibe: '"Berry Fizz"',
-            desc: 'Sparkling and berry-forward',
-            ingredients: ['berries', 'soda', '✨ pink glitter'],
+            emoji: '🫚',
+            name: 'Ginger Spark',
+            base: 'ginger beer',
+            ingredients: ['Ginger beer 330 ml', 'Ice'],
           },
           {
-            name: 'Cucumber Mint Cooler',
-            badge: 'cooler',
-            vibe: '"Cucumber Mint Cooler"',
-            desc: 'Cool and invigorating',
-            ingredients: ['cucumber', 'mint', 'lime'],
-          },
-          {
-            name: 'Golden Peach Fizz',
-            badge: 'fresh',
-            vibe: '"Peach Sunrise"',
-            desc: 'Soft and fruity',
-            ingredients: ['peach', 'orange', '✨ gold glitter'],
-            fullRow: true,
+            emoji: '💧',
+            name: 'Water with Fresh Cucumber',
+            base: 'water',
+            ingredients: ['Water 330 ml', 'Cucumber', 'Ice'],
           },
         ],
       },
@@ -200,34 +176,37 @@ function renderSlide(slideEl, slideData) {
   slideEl.querySelector('[data-note]').textContent = slideData.note;
   slideEl.querySelector('[data-footer]').textContent = slideData.footer;
 
-  const grid = slideEl.querySelector('[data-grid]');
-  grid.innerHTML = '';
+  const table = slideEl.querySelector('[data-grid]');
+  table.innerHTML = '';
 
   slideData.items.forEach((item) => {
-    const el = document.createElement('div');
-    el.className = 'cocktail-item' + (item.fullRow ? ' full-row' : '');
+    const row = document.createElement('div');
+    row.className = 'drink-row';
 
-    const top = document.createElement('div');
-    top.className = 'cocktail-top';
+    const head = document.createElement('div');
+    head.className = 'drink-head';
 
     const name = document.createElement('span');
-    name.className = 'cocktail-name';
-    name.textContent = item.name;
+    name.className = 'drink-name';
+    name.textContent = `${item.emoji} ${item.name}`;
 
-    const badge = document.createElement('span');
-    badge.className = 'base-badge';
-    badge.textContent = item.badge;
+    const badges = document.createElement('span');
+    badges.className = 'drink-badges';
 
-    top.appendChild(name);
-    top.appendChild(badge);
+    const baseBadge = document.createElement('span');
+    baseBadge.className = 'base-badge';
+    baseBadge.textContent = item.base;
+    badges.appendChild(baseBadge);
 
-    const vibe = document.createElement('div');
-    vibe.className = 'cocktail-vibe';
-    vibe.textContent = item.vibe;
+    if (item.prep) {
+      const prepBadge = document.createElement('span');
+      prepBadge.className = 'base-badge prep-badge';
+      prepBadge.textContent = item.prep;
+      badges.appendChild(prepBadge);
+    }
 
-    const desc = document.createElement('div');
-    desc.className = 'cocktail-desc';
-    desc.textContent = item.desc;
+    head.appendChild(name);
+    head.appendChild(badges);
 
     const ingRow = document.createElement('div');
     ingRow.className = 'ing-row';
@@ -238,11 +217,17 @@ function renderSlide(slideEl, slideData) {
       ingRow.appendChild(tag);
     });
 
-    el.appendChild(top);
-    el.appendChild(vibe);
-    el.appendChild(desc);
-    el.appendChild(ingRow);
-    grid.appendChild(el);
+    row.appendChild(head);
+    row.appendChild(ingRow);
+
+    if (item.note) {
+      const note = document.createElement('div');
+      note.className = 'drink-note';
+      note.textContent = item.note;
+      row.appendChild(note);
+    }
+
+    table.appendChild(row);
   });
 }
 
