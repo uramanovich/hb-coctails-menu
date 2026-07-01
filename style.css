@@ -185,6 +185,28 @@ body {
   visibility: hidden;
 }
 
+.drink-row.drink-outro {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+}
+
+.drink-outro-text {
+  font-size: 12px;
+  font-style: italic;
+  color: #6b3a52;
+  opacity: 0.55;
+  line-height: 1.4;
+}
+
+.drink-outro-joke {
+  font-size: 11px;
+  color: #a06080;
+  opacity: 0.55;
+  margin-top: 6px;
+}
+
 .drink-head {
   display: flex;
   align-items: baseline;

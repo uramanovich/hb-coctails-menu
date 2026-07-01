@@ -6,6 +6,10 @@ const MENU = {
         subtitle: 'Prince & Princess Menu',
         note: 'Для юных принцев и принцесс',
         footer: '· · · ✦ Пожалуйста, пейте ответственно 🌸 ✦ · · ·',
+        outro: {
+          text: '✨ Любой коктейль можно приготовить без алкоголя — просто скажите бармену',
+          joke: '😄 Фея-крёстная градусы не проверяет',
+        },
         items: [
           {
             emoji: '🍍',
@@ -99,6 +103,10 @@ const MENU = {
         subtitle: 'Prince & Princess Menu',
         note: 'For young princes and princesses',
         footer: '· · · ✦ Please drink responsibly 🌸 ✦ · · ·',
+        outro: {
+          text: '✨ Any cocktail can be made alcohol-free — just ask your bartender',
+          joke: '😄 The fairy godmother doesn’t check the proof',
+        },
         items: [
           {
             emoji: '🍍',
@@ -258,9 +266,26 @@ function renderSlide(slideEl, slideData) {
   });
 
   if (slideData.items.length % 2 !== 0) {
-    const spacer = document.createElement('div');
-    spacer.className = 'drink-row drink-spacer';
-    table.appendChild(spacer);
+    if (slideData.outro) {
+      const outro = document.createElement('div');
+      outro.className = 'drink-row drink-outro';
+
+      const text = document.createElement('div');
+      text.className = 'drink-outro-text';
+      text.textContent = slideData.outro.text;
+
+      const joke = document.createElement('div');
+      joke.className = 'drink-outro-joke';
+      joke.textContent = slideData.outro.joke;
+
+      outro.appendChild(text);
+      outro.appendChild(joke);
+      table.appendChild(outro);
+    } else {
+      const spacer = document.createElement('div');
+      spacer.className = 'drink-row drink-spacer';
+      table.appendChild(spacer);
+    }
   }
 }
 
