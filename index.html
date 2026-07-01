@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>Princess Party — Menu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">RU / EN</button>
+
+  <div class="slides" id="slides">
+
+    <!-- SLIDE 1: COCKTAILS -->
+    <section class="slide active" data-slide="0">
+      <div class="menu-card">
+        <div class="corner corner-tl">✦</div>
+        <div class="corner corner-tr">✦</div>
+        <div class="corner corner-bl">✦</div>
+        <div class="corner corner-br">✦</div>
+
+        <div class="left-panel">
+          <span class="crown-big">👑</span>
+          <div class="menu-title-big" data-title></div>
+          <div class="menu-title-sub" data-subtitle></div>
+          <div class="ornament-v">· · · ✦ · · ·</div>
+          <div class="left-note" data-note></div>
+        </div>
+
+        <div class="right-panel">
+          <div class="cocktails-grid" data-grid></div>
+          <div class="menu-footer" data-footer></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 2: NON-ALCOHOLIC -->
+    <section class="slide" data-slide="1">
+      <div class="menu-card">
+        <div class="corner corner-tl">✦</div>
+        <div class="corner corner-tr">✦</div>
+        <div class="corner corner-bl">✦</div>
+        <div class="corner corner-br">✦</div>
+
+        <div class="left-panel">
+          <span class="crown-big">👑</span>
+          <div class="menu-title-big" data-title></div>
+          <div class="menu-title-sub" data-subtitle></div>
+          <div class="ornament-v">· · · ✦ · · ·</div>
+          <div class="left-note" data-note></div>
+        </div>
+
+        <div class="right-panel">
+          <div class="cocktails-grid" data-grid></div>
+          <div class="menu-footer" data-footer></div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="nav-controls">
+    <button id="prev-slide" class="nav-arrow nav-prev" aria-label="Previous slide">‹</button>
+    <div class="nav-dots" id="nav-dots"></div>
+    <button id="next-slide" class="nav-arrow nav-next" aria-label="Next slide">›</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
