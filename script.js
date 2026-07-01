@@ -42,7 +42,6 @@ const MENU = {
             base: 'джин',
             desc: 'Цветочный и игристый',
             ingredients: ['Джин', 'Розовый сироп', 'Лимон', 'Газировка', 'Огурец', 'Лёд', '✨ розовые блёстки'],
-            fullRow: true,
           },
         ],
       },
@@ -127,7 +126,6 @@ const MENU = {
             base: 'gin',
             desc: 'Floral and sparkling',
             ingredients: ['Gin', 'Rose syrup', 'Lemon', 'Soda', 'Cucumber', 'Ice', '✨ pink glitter'],
-            fullRow: true,
           },
         ],
       },
@@ -191,7 +189,7 @@ function renderSlide(slideEl, slideData) {
 
   slideData.items.forEach((item) => {
     const row = document.createElement('div');
-    row.className = 'drink-row' + (item.fullRow ? ' full-row' : '');
+    row.className = 'drink-row';
 
     const head = document.createElement('div');
     head.className = 'drink-head';
@@ -233,6 +231,12 @@ function renderSlide(slideEl, slideData) {
 
     table.appendChild(row);
   });
+
+  if (slideData.items.length % 2 !== 0) {
+    const spacer = document.createElement('div');
+    spacer.className = 'drink-row drink-spacer';
+    table.appendChild(spacer);
+  }
 }
 
 function render() {

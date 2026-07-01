@@ -180,12 +180,9 @@ body {
   border-bottom: none;
 }
 
-.drink-row.full-row {
-  grid-column: 1 / -1;
-  border-right: none;
-  border-bottom: none;
-  padding-right: 0;
-  padding-top: 0.9rem;
+.drink-row.drink-spacer {
+  border: none;
+  visibility: hidden;
 }
 
 .drink-head {
@@ -336,4 +333,5 @@ body {
   .drink-row:nth-child(odd) { border-right: none; padding-right: 0; }
   .drink-row:nth-child(even) { padding-left: 0; }
   .drink-row:not(:last-child) { border-bottom: 0.5px solid #e8c5d8; }
+  .drink-spacer { display: none; }
 }
