@@ -231,6 +231,12 @@ body {
   font-style: italic;
 }
 
+.drink-joke {
+  font-size: 11px;
+  color: #a06080;
+  margin-top: 2px;
+}
+
 .ing-row {
   display: flex;
   flex-wrap: wrap;

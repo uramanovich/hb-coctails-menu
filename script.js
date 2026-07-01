@@ -13,6 +13,7 @@ const MENU = {
             base: 'ром',
             desc: 'Тропический и освежающий',
             ingredients: ['Ром', 'Ананас', 'Апельсин', 'Лайм', 'Лёд', '✨ золотые блёстки'],
+            joke: '😄 Исчезает быстрее, чем тыква превращается в карету',
           },
           {
             emoji: '👑',
@@ -21,6 +22,7 @@ const MENU = {
             desc: 'Имбирный и игристый',
             ingredients: ['Джин', 'Ginger Beer', 'Лайм', 'Гренадин', 'Лёд'],
             note: 'Гренадин — последним, не мешать!',
+            joke: '😄 Лягается не хуже настоящего мула',
           },
           {
             emoji: '🦋',
@@ -28,6 +30,7 @@ const MENU = {
             base: 'джин',
             desc: 'Лавандовый и нежный',
             ingredients: ['Джин', 'Лимон', 'Лавандовый сироп', 'Газировка', 'Лёд', '✨ розовые блёстки'],
+            joke: '😄 Осторожно: превращает в принцессу с первого глотка',
           },
           {
             emoji: '🌿',
@@ -35,6 +38,7 @@ const MENU = {
             base: 'джин',
             desc: 'Лёгкий и кислый',
             ingredients: ['Джин', 'Elderflower сироп', 'Лимон', 'Газировка', 'Огурец', 'Лёд'],
+            joke: '😄 Даже фея-крёстная попросила бы добавки',
           },
           {
             emoji: '🌹',
@@ -42,6 +46,7 @@ const MENU = {
             base: 'джин',
             desc: 'Цветочный и игристый',
             ingredients: ['Джин', 'Розовый сироп', 'Лимон', 'Газировка', 'Огурец', 'Лёд', '✨ розовые блёстки'],
+            joke: '😄 Роза без шипов, но с характером',
           },
         ],
       },
@@ -57,6 +62,7 @@ const MENU = {
             base: 'пиво 0.0%',
             desc: 'Лёгкий и хмельной',
             ingredients: ['Безалкогольное пиво', 'Лёд'],
+            joke: '😄 Пьёшь как король, за рулём как трезвенник',
           },
           {
             emoji: '🥤',
@@ -64,6 +70,7 @@ const MENU = {
             base: 'кола',
             desc: 'Освежающий и бодрящий',
             ingredients: ['Кола Zero', 'Лимон', 'Лёд'],
+            joke: '😄 Ноль калорий, сто процентов настроения',
           },
           {
             emoji: '🫚',
@@ -71,6 +78,7 @@ const MENU = {
             base: 'имбирное пиво',
             desc: 'Острый и игристый',
             ingredients: ['Имбирное пиво', 'Лёд'],
+            joke: '😄 Огонь без градусов',
           },
           {
             emoji: '💧',
@@ -78,6 +86,7 @@ const MENU = {
             base: 'вода',
             desc: 'Прохладная и лёгкая',
             ingredients: ['Вода', 'Огурец', 'Лёд'],
+            joke: '😄 Самый скромный напиток на этом столе',
           },
         ],
       },
@@ -97,6 +106,7 @@ const MENU = {
             base: 'rum',
             desc: 'Tropical and refreshing',
             ingredients: ['Rum', 'Pineapple', 'Orange', 'Lime', 'Ice', '✨ gold glitter'],
+            joke: '😄 Disappears faster than a pumpkin turns into a carriage',
           },
           {
             emoji: '👑',
@@ -105,6 +115,7 @@ const MENU = {
             desc: 'Ginger and sparkling',
             ingredients: ['Gin', 'Ginger Beer', 'Lime', 'Grenadine', 'Ice'],
             note: 'Add grenadine last, don’t stir!',
+            joke: '😄 Kicks like a real mule',
           },
           {
             emoji: '🦋',
@@ -112,6 +123,7 @@ const MENU = {
             base: 'gin',
             desc: 'Lavender and delicate',
             ingredients: ['Gin', 'Lemon', 'Lavender syrup', 'Soda', 'Ice', '✨ pink glitter'],
+            joke: '😄 Warning: turns you into a princess after one sip',
           },
           {
             emoji: '🌿',
@@ -119,6 +131,7 @@ const MENU = {
             base: 'gin',
             desc: 'Light and tart',
             ingredients: ['Gin', 'Elderflower syrup', 'Lemon', 'Soda', 'Cucumber', 'Ice'],
+            joke: '😄 Even a fairy godmother would ask for seconds',
           },
           {
             emoji: '🌹',
@@ -126,6 +139,7 @@ const MENU = {
             base: 'gin',
             desc: 'Floral and sparkling',
             ingredients: ['Gin', 'Rose syrup', 'Lemon', 'Soda', 'Cucumber', 'Ice', '✨ pink glitter'],
+            joke: '😄 A rose with no thorns, but plenty of attitude',
           },
         ],
       },
@@ -141,6 +155,7 @@ const MENU = {
             base: 'beer 0.0%',
             desc: 'Light and malty',
             ingredients: ['Non-alcoholic beer', 'Ice'],
+            joke: '😄 Drink like royalty, drive like a designated driver',
           },
           {
             emoji: '🥤',
@@ -148,6 +163,7 @@ const MENU = {
             base: 'cola',
             desc: 'Refreshing and zesty',
             ingredients: ['Cola Zero', 'Lemon', 'Ice'],
+            joke: '😄 Zero calories, one hundred percent mood',
           },
           {
             emoji: '🫚',
@@ -155,6 +171,7 @@ const MENU = {
             base: 'ginger beer',
             desc: 'Spicy and sparkling',
             ingredients: ['Ginger beer', 'Ice'],
+            joke: '😄 All the fire, none of the degrees',
           },
           {
             emoji: '💧',
@@ -162,6 +179,7 @@ const MENU = {
             base: 'water',
             desc: 'Cool and light',
             ingredients: ['Water', 'Cucumber', 'Ice'],
+            joke: '😄 The most humble drink at this table',
           },
         ],
       },
@@ -227,6 +245,13 @@ function renderSlide(slideEl, slideData) {
       note.className = 'drink-note';
       note.textContent = item.note;
       row.appendChild(note);
+    }
+
+    if (item.joke) {
+      const joke = document.createElement('div');
+      joke.className = 'drink-joke';
+      joke.textContent = item.joke;
+      row.appendChild(joke);
     }
 
     table.appendChild(row);
