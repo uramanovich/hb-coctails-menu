@@ -70,7 +70,7 @@ const MENU = {
           },
           {
             emoji: '🥤',
-            name: 'Кола Zero с лимоном',
+            name: 'Кола Zero',
             base: 'кола',
             desc: 'Освежающий и бодрящий',
             ingredients: ['Кола Zero', 'Лимон (по желанию)', 'Лёд'],
@@ -127,7 +127,7 @@ const MENU = {
           },
           {
             emoji: '🦋',
-            name: 'Lavender Gin Sour',
+            name: 'Enchanted Fairy Garden',
             base: 'gin',
             desc: 'Lavender and delicate',
             ingredients: ['Gin', 'Lemon', 'Lavender syrup', 'Soda', 'Ice', '✨ pink glitter'],
@@ -135,7 +135,7 @@ const MENU = {
           },
           {
             emoji: '🌿',
-            name: 'Elderflower Gin Sour',
+            name: 'Elderflower Blossom',
             base: 'gin',
             desc: 'Light and tart',
             ingredients: ['Gin', 'Elderflower syrup', 'Lemon', 'Soda', 'Cucumber', 'Ice'],
@@ -143,7 +143,7 @@ const MENU = {
           },
           {
             emoji: '🌹',
-            name: 'Rose Gin Fizz',
+            name: 'Pink Waltz',
             base: 'gin',
             desc: 'Floral and sparkling',
             ingredients: ['Gin', 'Rose syrup', 'Lemon', 'Soda', 'Cucumber', 'Ice', '✨ pink glitter'],
@@ -167,7 +167,7 @@ const MENU = {
           },
           {
             emoji: '🥤',
-            name: 'Cola Zero with Lemon',
+            name: 'Cola Zero',
             base: 'cola',
             desc: 'Refreshing and zesty',
             ingredients: ['Cola Zero', 'Lemon (optional)', 'Ice'],
